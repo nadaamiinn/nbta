@@ -1,5 +1,6 @@
 const copy = {
   ar: {
+    galleryEyebrow:'خضرة عايشة في البيت', galleryTitle:'تخيّلها في <em>ركنك.</em>', galleryIntro:'أفكار بسيطة لشكل النباتات وهي مزروعة في البيت، عشان تتخيل الخضرة عندك.', galleryPothos:'بوتس متدلٍ على رف — استغلال لطيف للمساحة الرأسية.', galleryMonstera:'مونستيرا قرب ضوء النهار — ركن أخضر يلفت النظر.',
     skip:'انتقل للمحتوى', navPlants:'النباتات', navGuide:'دليل البداية', navFaq:'أسئلة شائعة',
     heroEyebrow:'دليل أخضر على قدّ بيتك', heroTitle:'بيتك مش محتاج جنينة.<br><em>نبتة واحدة</em> تكفي.',
     heroDescription:'مش عارف تبدأ منين؟ خلّيها علينا. نبتة تساعدك تختار صاحب أخضر يناسب ضوء شقتك ووقتك — من غير مصطلحات معقدة ولا جدول ريّ صارم.',
@@ -24,6 +25,7 @@ const copy = {
     languageAria:'Switch to English', count:n=>`${arabicNumber(n)} ${n===1?'نبتة':n===2?'نبتتين':'نباتات'}`
   },
   en: {
+    galleryEyebrow:'Green at home', galleryTitle:'Picture it in <em>your corner.</em>', galleryIntro:'A few real-life ideas to help you imagine plants growing in your home.', galleryPothos:'A trailing pothos on a shelf—an easy way to use vertical space.', galleryMonstera:'A monstera near daylight—a leafy corner with presence.',
     skip:'Skip to content', navPlants:'Plants', navGuide:'First steps', navFaq:'FAQs',
     heroEyebrow:'A greener guide, made for your home', heroTitle:'No garden needed.<br><em>One plant</em> is plenty.',
     heroDescription:'Not sure where to start? We can help. Nabta helps you find a leafy companion for your apartment’s light and your available time—with no jargon or rigid watering calendar.',
@@ -97,6 +99,7 @@ function setStaticCopy() {
   filterGroups[1].setAttribute('aria-label', english ? 'Filter by care time' : 'فلترة حسب وقت العناية');
   document.querySelector('.closing-note').setAttribute('aria-label', english ? 'A final reminder' : 'تذكير أخير');
   document.querySelector('.back-to-top').setAttribute('aria-label', english ? 'Back to top' : 'العودة إلى أعلى الصفحة');
+  document.querySelectorAll('img[data-alt-en]').forEach((img) => { img.alt = english ? img.dataset.altEn : img.getAttribute('data-alt-ar') || img.alt; });
   document.title = state.language === 'ar' ? 'نبتة | دليل النباتات المنزلية للمبتدئين في مصر' : 'Nabta | A Beginner’s Guide to Houseplants in Egypt';
   document.querySelector('meta[name="description"]').content = state.language === 'ar'
     ? 'اختار نبتة تناسب ضوء بيتك ووقتك. دليل عربي بسيط لسكان الشقق في مصر، مع نباتات سهلة العناية وخطوات بداية واضحة.'
