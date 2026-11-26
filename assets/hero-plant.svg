@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">A leafy companion</title>
+  <desc id="desc">An illustrated indoor plant with rounded green leaves in a terracotta pot.</desc>
+  <defs>
+    <linearGradient id="pot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ce8061"/><stop offset="1" stop-color="#a94f3d"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7f9e68"/><stop offset="1" stop-color="#345d43"/></linearGradient>
+    <linearGradient id="leafLight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8c69a"/><stop offset="1" stop-color="#63825b"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.2" width="1.6" height="1.7"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <ellipse cx="324" cy="553" rx="170" ry="26" fill="#a3a890" opacity=".22" filter="url(#shadow)"/>
+  <path d="M318 401c-15-56-7-117 8-177m-10 184c-34-50-75-93-122-130m125 131c20-63 58-114 117-153m-115 151c-5-71 1-145 27-212m-24 211c-64-22-116-31-172-28" fill="none" stroke="#527449" stroke-linecap="round" stroke-width="8"/>
+  <path d="M295 267c-51 15-100 3-129-38 31-40 76-52 126-30 19 20 22 45 3 68Z" fill="url(#leaf)" transform="rotate(-25 232 232)"/>
+  <path d="M238 231c22 8 46 18 67 34" fill="none" stroke="#c6d1a8" stroke-linecap="round" stroke-width="3" opacity=".7"/>
+  <path d="M334 223c-19-47-12-92 25-124 43 20 66 59 58 108-14 27-40 35-83 16Z" fill="url(#leafLight)" transform="rotate(9 371 171)"/>
+  <path d="M352 202c15-28 31-56 52-83" fill="none" stroke="#e0e5c4" stroke-linecap="round" stroke-width="3" opacity=".74"/>
+  <path d="M370 284c20-50 61-82 113-81 18 47 6 93-31 125-29 11-58-4-82-44Z" fill="url(#leaf)" transform="rotate(13 431 267)"/>
+  <path d="M391 292c23-30 48-56 78-79" fill="none" stroke="#c6d1a8" stroke-linecap="round" stroke-width="3" opacity=".7"/>
+  <path d="M277 328c-49-10-89 4-113 42 31 38 75 48 121 26 18-21 14-44-8-68Z" fill="url(#leafLight)" transform="rotate(-12 223 366)"/>
+  <path d="M284 358c-30-2-65 4-98 20" fill="none" stroke="#e0e5c4" stroke-linecap="round" stroke-width="3" opacity=".72"/>
+  <path d="M333 357c36-34 82-44 127-22-2 49-29 83-77 96-30-5-47-32-50-74Z" fill="url(#leafLight)" transform="rotate(10 395 393)"/>
+  <path d="M351 391c32-15 65-30 99-43" fill="none" stroke="#e0e5c4" stroke-linecap="round" stroke-width="3" opacity=".72"/>
+  <path d="M203 286c-42-35-57-79-38-127 50-1 87 24 100 72-5 33-26 50-62 55Z" fill="#82996b" transform="rotate(-34 215 207)"/>
+  <path d="M204 271c-15-36-27-67-36-102" fill="none" stroke="#d8dfb8" stroke-linecap="round" stroke-width="3" opacity=".72"/>
+  <path d="M379 333c44-35 93-40 136-11-7 48-37 79-86 87-31-8-46-35-50-76Z" fill="#476f4d" transform="rotate(20 447 367)"/>
+  <path d="M397 372c32-19 62-37 97-51" fill="none" stroke="#b6c493" stroke-linecap="round" stroke-width="3" opacity=".8"/>
+  <path d="M272 396c-37-15-72-11-100 14 18 37 52 53 93 44 23-15 26-34 7-58Z" fill="#476f4d" transform="rotate(-8 218 425)"/>
+  <path d="M284 428c-27-5-58 0-91 10" fill="none" stroke="#b6c493" stroke-linecap="round" stroke-width="3" opacity=".8"/>
+  <path d="M253 444h143l-24 135c-2 14-12 23-28 23h-39c-16 0-26-9-28-23z" fill="url(#pot)"/>
+  <path d="M242 433c0-8 7-14 15-14h135c8 0 15 6 15 14v19H242z" fill="#da9979"/>
+  <path d="M273 472c19 7 39 10 60 10m-46 15c14 5 27 7 40 6" fill="none" stroke="#e9b49a" stroke-linecap="round" stroke-width="4" opacity=".6"/>
+  <path d="M445 143c5-10 13-17 25-20-5 10-5 19 0 28 10-5 18-5 28-1-9 5-15 13-18 24-5-9-13-15-25-17 9-4 16-8 20-14-11 1-20 0-30 0Z" fill="#bc654a" opacity=".9"/>
+  <circle cx="158" cy="336" r="6" fill="#bc654a" opacity=".7"/>
+  <circle cx="474" cy="424" r="4" fill="#bc654a" opacity=".7"/>
+</svg>
